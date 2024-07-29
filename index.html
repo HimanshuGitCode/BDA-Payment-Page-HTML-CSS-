@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./script.js">
+  </head>
+  <body>
+    <div class="macbook-pro">
+      <div class="group-wrapper">
+        <div class="group">
+          <div class="overlap">
+            <img class="vector" src="img/vector-1.svg" />
+            <img class="img" src="img/vector-2.svg" />
+            <img class="vector-2" src="img/vector-3.svg" />
+            <div class="overlap-group">
+
+              <style>
+                .overlap-group {
+                    /* Add your styles here if needed */
+                }
+                .text-wrapper {
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    
+                    color: #516136;
+                    text-align: center;
+                    cursor: pointer; /* Change cursor to pointer */
+                    display: inline-block; /* Ensure it behaves like a button */
+                    text-decoration: none; /* Remove underline if any */
+                    transition: background-color 0.3s; /* Smooth transition for hover effect */
+                    margin-top: -10px; /* Move the button higher */
+                }
+            </style>
+
+            <form id="paymentForm" method="POST" action="process_payment.php">
+              <input type="hidden" name="amount" value="2360" /> <!-- Amount in INR -->
+              <div class="text-wrapper" onclick="processPayment();">Process Payment</div>
+            </form>
+            
+          </div>
+            <div class="div-wrapper"><input class="div" placeholder="Name" required /></div>
+            <div class="overlap-2"><input class="text-wrapper-2" placeholder="Email" /></div>
+            <div class="overlap-3"><input class="text-wrapper-2" placeholder="+91 XXXXXXXXXX" /></div>
+            <div class="text-wrapper-3">Payment Summary-</div>
+            <div class="text-wrapper-4">You are paying for</div>
+            <p class="full-name"><span class="span">Full Name </span> <span class="text-wrapper-5">*</span></p>
+            <p class="email"><span class="span">Email </span> <span class="text-wrapper-5">*</span></p>
+            <p class="mobile-number"><span class="span">Mobile Number </span> <span class="text-wrapper-5">*</span></p>
+            <div class="text-wrapper-6">Accelerate with AI</div>
+            <div class="text-wrapper-7">GST</div>
+            <div class="text-wrapper-8">Amount</div>
+            <div class="text-wrapper-9">Rs. 3.60</div>
+            <div class="text-wrapper-10">Rs. 20</div>
+            <div class="text-wrapper-11">Total Payable</div>
+            <p class="by-continuing-you">
+              <span class="text-wrapper-12">By continuing, you accept our </span>
+              <a href="https://himanshu-portfolios.netlify.app/" class="text-wrapper-13" style="color: #616161;">Terms</a>
+              <span class="text-wrapper-12">, </span>
+              <a href="https://himanshu-portfolios.netlify.app/" class="text-wrapper-13" style="color: #616161;">Privacy</a>
+              <span class="text-wrapper-12">, and </span>
+              <a href="https://himanshu-portfolios.netlify.app/" class="text-wrapper-13" style="color: #616161;">Refund Policy</a>
+              <span class="text-wrapper-12">.</span>
+            </p>
+            <div class="text-wrapper-14">Rs. 23.60</div>
+            <img class="group-2" src="img/group-1.png" />
+            <div class="overlap-wrapper">
+              <div class="overlap-4">
+                <div class="overlap-group-wrapper">
+                  <div class="overlap-group-2">
+                    <p class="we-will-send-update">
+                      <span class="text-wrapper-15"
+                        >We will send update above&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;email
+                        and&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whatsapp.</span
+                      >
+                      <span class="text-wrapper-5">*</span>
+                    </p>
+                    <img class="group-3" src="img/group-2.png" />
+                  </div>
+                </div>
+                <img class="image" src="img/image-2.png" />
+              </div>
+            </div>
+            <div class="group-4">
+              <div class="overlap-5">
+                <div class="group-5">
+                  <div class="overlap-group-3"><div class="text-wrapper-16">Secured by</div></div>
+                </div>
+                <div class="group-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
